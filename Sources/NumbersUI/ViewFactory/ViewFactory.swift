@@ -11,8 +11,8 @@ import SwiftUI
 
 public struct ViewFactory {
 
-    var injector: NumbersInjector { .shared }
-    init() {}
+    public var injector: NumbersInjector { .shared }
+    public init() {}
 }
 
 @available(iOS 13.0, *)

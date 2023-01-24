@@ -15,6 +15,16 @@ public struct ViewFactory {
     public init() {}
 }
 
+struct ViewFactoryKey: EnvironmentKey {
+    static let defaultValue: ViewFactory = .init()
+}
+
+@available(iOS 13.0, *)
+public extension EnvironmentValues {
+    var viewFactory: ViewFactory { self[ViewFactoryKey.self] }
+}
+
+
 @available(iOS 13.0, *)
 public extension ViewFactory {
 

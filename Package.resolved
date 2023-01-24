@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "numbersinjector",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/michelgoni/NumbersInjector",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5605528bc71ea49535f86eac3863767ab26ea288"
+      }
+    },
+    {
+      "identity" : "swinject",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Swinject/Swinject.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "dfb78563c581eea560ea90c19dbe8d1d93d11260"
+      }
+    }
+  ],
+  "version" : 2
+}
